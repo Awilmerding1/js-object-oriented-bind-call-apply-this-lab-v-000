@@ -6,4 +6,6 @@ function setThisWithCall(fn, thisValue, arg) {
   fn()
   this.thisValue = thisValue
   this.arg = arg
+  
+  return this.thisValue
 }
