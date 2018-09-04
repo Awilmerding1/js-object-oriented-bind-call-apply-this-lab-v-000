@@ -11,3 +11,7 @@ function setThisWithApply(fn, thisValue, args) {
   fn()
   return fn.apply(thisValue, args)
 }
+
+function returnNewFunctionOf(functionToBeCopied, thisValue) {
+  
+}
