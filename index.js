@@ -9,5 +9,5 @@ function setThisWithCall(fn, thisValue, arg) {
 
 function setThisWithApply(fn, thisValue, args) {
   fn()
-  return fn.apply(thisValue, arg)
+  return fn.apply(thisValue, args)
 }
