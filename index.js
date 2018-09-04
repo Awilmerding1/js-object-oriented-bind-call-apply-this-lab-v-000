@@ -6,5 +6,5 @@ function setThisWithCall(fn, thisValue, arg) {
  
   this.thisValue = thisValue
   
-  return fn.call(thisValue)
+  return fn.call(arg)
 }
